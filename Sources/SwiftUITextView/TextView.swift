@@ -56,7 +56,7 @@ public struct TextView: UIViewRepresentable {
         self._textAlignment = textAlignment
     }
     
-    static func heightForTextView(width: CGFloat, font: UIFont, text: String) -> CGFloat {
+    public static func heightForTextView(width: CGFloat, font: UIFont, text: String) -> CGFloat {
         text.height(constraintToWidth: width, font: font)
     }
     
