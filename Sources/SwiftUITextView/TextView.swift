@@ -66,6 +66,7 @@ public struct TextView: UIViewRepresentable {
         textView.backgroundColor = UIColor.clear
         textView.contentInset = .zero
         textView.textContainerInset = .zero
+        textView.textColor = textColor
         textView.tintColor = tintColor
         textView.showsHorizontalScrollIndicator = false
         textView.showsVerticalScrollIndicator = false
